@@ -1,1 +1,1 @@
-Presentation on how to use TDD with Angular.js
+Presentation on how a mob programming experiment went
