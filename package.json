@@ -1,6 +1,6 @@
 {
-  "name": "angularjs-tdd-presentation",
-  "description": "Presentation on how to use TDD with Angular.js",
+  "name": "mob-programming-presentation",
+  "description": "Presentation on how a mob programming experiment went",
   "version": "0.1.0",
   "author": {
     "name": "Cameron Kenneth Knight",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ckknight/angularjs-tdd-presentation"
+    "url": "git://github.com/ckknight/mob-programming-presentation"
   },
   "readmeFilename": "README.md",
   "dependencies": {

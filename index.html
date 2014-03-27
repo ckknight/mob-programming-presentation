@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>TDD with Angular.JS</title>
-    <meta name="description" content="Presentation on how to use TDD with Angular.js">
+    <title>Mob Programming: A Success Story</title>
+    <meta name="description" content="Presentation on how a mob programming experiment went">
     <meta name="author" content="Cameron Kenneth Knight">
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -31,45 +31,63 @@
     <div class="reveal">
       <div class="slides">
         <section>
-          <h1>TDD with Angular.JS</h1>
+          <h1>Mob Programming: A Success Story</h1>
           <p>by <a href="https://github.com/ckknight">ckknight</a></p>
-          <p><a href="http://http://ckknight.github.io/angularjs-tdd-presentation/">http://ckknight.github.io/angularjs-tdd-presentation/</a></p>
+          <p><a href="http://http://ckknight.github.io/mob-programming-presentation/">http://ckknight.github.io/mob-programming-presentation/</a></p>
         </section>
         <section>
-          <h3>What is Test-Driven Development (TDD)?</h3>
-          <p class="fragment">TDD is a software development process that encourages writing a failing automated test case, then produce the minimum amount of code required to pass that test, optionally followed by refactoring code.</p>
-          <p class="fragment"><img src="images/red-green-refactor.png"></p>
+          <h3>What is Mob Programming?</h3>
+          <p class="fragment">All the brilliant people working at the same time, in the same space, at the same computer, on the same thing</p>
+          <p class="fragment">Pair Programming on overdrive</p>
         </section>
         <section>
-          <h3>Why is Test-Driven Development Useful?</h3>
+          <h3>Why did we try this?</h3>
           <ul>
-            <li class="fragment">Allows you to make incremental steps easily and encourages against large, sweeping changes.</li>
-            <li class="fragment">Allows us to break the negative feedback loop of increased defects and maintain a linear (as opposed to exponential) cost of change. (see: Technical Debt)</li>
+            <li class="fragment">Knowledge transfer</li>
+            <li class="fragment">More eyes</li>
+            <li class="fragment">Forced to follow best conventions</li>
           </ul>
         </section>
         <section>
-          <p>&ldquo;The act of writing a unit test is more an act of design than of verification.  It is also more an act of documentation than of verification.  The act of writing a unit test closes a remarkable number of feedback loops, the least of which is the one pertaining to verification of function&rdquo;. ~Robert C. Martin</p>
+          <h3>Our environment</h3>
+          <p><img src="images/mob-front.jpeg"></p>
         </section>
         <section>
-          <h3>How does Angular.JS make unit testing easy?</h3>
+          <h3>Our environment</h3>
+          <p><img src="images/mob-back.jpeg"></p>
+        </section>
+        <section>
+          <h3>Hidden benefits</h3>
           <ul>
-            <li class="fragment">Dependency Injection</li>
-            <li class="fragment">Services that would otherwise be hard-to-test globals, e.g. <code>$timeout</code>, <code>$window</code>, <code>$location</code></li>
-            <li class="fragment">Pre-mocked backends, e.g. <code>$httpBackend</code>, <code>$timeout</code></li>
-            <li class="fragment">Karma is a pretty nice tool. I can run 5 browsers simultaneously without much issue</li>
+            <li class="fragment">Lower defect rate</li>
+            <li class="fragment">Never blocked within the team</li>
+            <li class="fragment">Avoided many rabbit holes</li>
+            <li class="fragment">Productivity gains</li>
+            <li class="fragment">Knowledge transfer beyond development (i.e. to QA, Product Owner, Designer)</li>
           </ul>
         </section>
         <section>
-          <h3>What's hard about unit testing with Angular.JS?</h3>
+          <h3>Challenges</h3>
           <ul>
-            <li class="fragment">If best practices aren't followed, code may become increasingly hard to test. e.g. <code>jQuery</code> usage outside of directives (or improperly used within directives).</li>
-            <li class="fragment">Isolated vs. non-isolated scopes can be confusing.</li>
-            <li class="fragment">Might have to expose more than necessary to test state or otherwise internal methods. <em>Think: is it better to encapsulate this away or is it better to make it easy-to-test?</em></li>
+            <li class="fragment">Coming up with a good agreement</li>
+            <li class="fragment">Easier prioritization, as the most prioritized thing is the only thing to work on</li>
+            <li class="fragment">Ramp-up period to get used to working as a mob</li>
+            <li class="fragment">Spinning our wheels in exploratory coding</li>
+            <li class="fragment">Time spent waiting forces us all to wait together</li>
           </ul>
         </section>
         <section>
-          <h2>Live Example</h2>
-          <img src="images/doge.jpg">
+          <h3>Overview of our Agreement</h3>
+          <ul>
+            <li class="fragment">Follow through for two weeks, so we give it an honest shot</li>
+            <li class="fragment">Specified timeframe to be on-site for</li>
+            <li class="fragment">Only work on highest-priority story</li>
+            <li class="fragment">Don't start a story unless the UATs are done</li>
+            <li class="fragment">No talking over one another or shouting</li>
+            <li class="fragment">No logical fallacies (especially appeal to authority)</li>
+            <li class="fragment">Unanimous agreement rather than tyranny by majority or authority</li>
+            <li class="fragment">Frequent retrospectives</li>
+          </ul>
         </section>
         <section>
           <h2>Q &amp; A</h2>
